@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Gilory-Medium;
+    src: url(Gilroy-Medium.ttf);
+    font-family: Voyage;
+    src: url('https://fonts.cdnfonts.com/css/voyage?styles=140274');
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #f7f6ee;
+
+}
+#nav{
+   width: 100vw;
+    height: 12vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 3.2vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+#nav h4{
+    font-size: 1.1vw;
+    font-weight: 100;
+    text-transform:uppercase;
+    font-family:'Helvetica Neue', sans-serif; 
+}
+#nav h4 span{
+    font-size: 1.3vw;
+    font-family: Voyage;
+font-weight: 800;}
+.links a{
+    font-family:'Helvetica Neue', sans-serif;   
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+margin: 2vw;
+}
+#heading{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100vw;
+    height: 42vh;
+}
+#heading p{
+ color: rgb(72, 71, 71);
+    width: 43vw;
+    font-size: 1.4vw;
+    margin: 5vh;
+    text-align: center;
+
+}
+#heading h1{
+    font-family: Voyage;
+    letter-spacing: 3px;
+    font-size: 4.2vw;
+    font-weight: 600;
+}
+#heading button{
+    padding: 1.6vh 3vw;
+    font-size: 1.3vw;
+    background-color: #000;
+    color: rgb(188, 186, 186);
+    border-radius: 100px
+}
+#heading button:hover{
+    background-color:#383738;
+}
+#emagu{
+    margin-top: 40vh;
+    width: 100%;
+}
+img{
+    width: 100%;
+    background-size: cover;
+}
+#kinda{
+    width: 100vw;
+    margin-top: 4vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10vh 5vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+}
+.lkinda{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+-webkit-box-align: end;
+    -ms-flex-align: end;
+        align-items: flex-end;
+ width: 48vw;
+border-right: 2px solid #000;
+text-align: right;
+padding-right: 4vw;
+}
+.lkinda h1{
+    font-family: Voyage;
+    font-size: 3vw;
+    font-weight: 400;
+}
+.line{
+    width: 6%;
+    height: 2px;
+    margin: 25px 0;
+    background-color: #000;
+}
+.lkinda p{
+    width: 18vw;
+    font-size: 1.2vw;
+}
+.rkinda{
+    width: 48vw;
+}
+.icon{
+position: absolute;
+width: 5vw;
+height: 5vw;
+margin-left: 3vw;
+border-radius: 50%;
+background-color: rgb(43, 42, 42);
+}
+svg{
+    height: 5vh;
+    width: 3vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+}
+.top{
+    margin-left: 10vw;
+    margin-top: 1.5vw;
+}
+.top h1{
+    font-family: Voyage;
+    color: rgb(89, 89, 89);
+    font-size: 2vw;
+    font-weight: 600;
+}
+.top p{
+    font-size: 1.2vw;
+    margin: 1vw;
+    width: 13vw;
+}
